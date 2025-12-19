@@ -40,7 +40,7 @@ public class BaseTest extends FrameworkServiceManager {
 	 * before any tests in the suite are run. It initializes the property file by
 	 * calling the CreatePropertyfile method from the Util class. It also sets up
 	 * various timeout values by reading them from the property file.
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	@BeforeSuite()
 	public void initiatePropertyFile() {
@@ -105,7 +105,7 @@ public class BaseTest extends FrameworkServiceManager {
 	 * report file.
 	 * 
 	 * @throws IOException if an I/O error occurs while flushing the report
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	@AfterClass
 	public void clear() {
@@ -159,7 +159,7 @@ public class BaseTest extends FrameworkServiceManager {
 	 * created ExtentTest instance is then set in the ExtentReportMGR for further
 	 * logging.
 	 * 
-	 * @author BMallick
+	 * @author Satyajit
 	 * @return void
 	 */
 	public void assignTestTitleToExtentReport(String reportTitle, String...ticketID) {
@@ -217,7 +217,7 @@ public class BaseTest extends FrameworkServiceManager {
 	 * the current ExtentTest instance in the ThreadLocal variable for further
 	 * logging.
 	 * 
-	 * @author BMallick
+	 * @author Satyajit
 	 * @param stepName The name of the step to be created in the report.
 	 * @return void
 	 */

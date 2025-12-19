@@ -70,7 +70,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name isElementEnable
 	 * @description Verifies if element is enabled
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param element ||description: Element ||allowedRange:
 	 * @return boolean ||description: true if element is enabled else false
 	 * @jiraId
@@ -96,7 +96,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name waitForMSeconds
 	 * @description Waits the thread for set milliseconds
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param timeoutInMilliSeconds ||description: Wait timeout in milliseconds
 	 *                              ||allowedRange:
 	 * @return void ||description:
@@ -116,7 +116,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name waitForElementVisible
 	 * @description Waits for the element to be visible on the page
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param selector         ||description: Element's Locator ||allowedRange:
 	 * @param timeoutInSeconds ||description: Wait timeout in seconds
 	 *                         ||allowedRange:
@@ -141,7 +141,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name scrollToBottom
 	 * @description Scroll to the bottom of page
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @return void ||description:
 	 * @jiraId
 	 */
@@ -162,7 +162,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name scrollToTop
 	 * @description Scroll to the top of page
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @return void ||description:
 	 * @jiraId
 	 */
@@ -183,7 +183,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * 
 	 * @name clickByAction
 	 * @description click on web element using action class
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param selector ||description: Element's Locator ||allowedRange:
 	 * @return void ||description:
 	 */
@@ -214,7 +214,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name click
 	 * @description click on web element
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param element ||description: Element ||allowedRange:
 	 * @return void ||description:
 	 */
@@ -259,7 +259,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name clickByJavaScript
 	 * @description click on web element using javascript
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param element ||description: Element's Locator ||allowedRange:
 	 * @return void ||description:
 	 */
@@ -288,7 +288,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name clear
 	 * @description clear text field
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param by ||description: Element's Locator ||allowedRange:
 	 * @return
 	 * @jiraId
@@ -305,7 +305,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name getText
 	 * @description Gets text from element
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param element ||description: WebElement ||allowedRange:
 	 * @return String ||description: text of element
 	 * @jiraId
@@ -321,7 +321,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name selectDropDownByValue
 	 * @description Selects drop down element by value
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param element ||description: Drop down WebElement ||allowedRange:
 	 * @param value   ||description: Value of element to be selected ||allowedRange:
 	 * @return void ||description:
@@ -363,7 +363,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name switchToFramePerformAction
 	 * @description Switches to the frame and perform action
-	 * @author: Komal Verma
+	 * @author: Satyajit Bose
 	 * @param frameIndex ||description: frameindex in which element is available
 	 *                   ||allowedRange:
 	 * @return void ||description:
@@ -380,7 +380,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name switchToFramePerformAction
 	 * @description Switches to the frame and perform action
-	 * @author: Vaibhav Narkhede
+	 * @author: Satyajit Bose
 	 * @param frameName ||description: frame name in which element is available
 	 *                  ||allowedRange:
 	 * @return void ||description:
@@ -406,7 +406,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name clearInput
 	 * @description clear input using BACKSPACE
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param element ||description: WebElement to be cleared ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -427,7 +427,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name refreshPage
 	 * @description Refresh the WebPage
-	 * @author Vaibhav Narkhede/Updated by BMallick on 3rdOct2025
+	 * @author Satyajit Bose/Updated by BBose on 3rdOct2025
 	 * @return void ||description:
 	 * @jiraId
 	 */
@@ -449,7 +449,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name acceptAlert
 	 * @description Accepts an alert Message
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param sBtnText ||description: Button string value to be selected
 	 *                 ||allowedRange:
 	 * @return void ||description:
@@ -480,7 +480,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name highLight
 	 * @description Highlight the WebElement
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param webElement ||description: WebElement to be highlighted ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -501,7 +501,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name highLightBg
 	 * @description Highlight the WebElement
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param by ||description: By class of Object of Xpath of WebElement to be
 	 *           highlighted ||allowedRange:
 	 * @return void ||description:
@@ -524,7 +524,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name highLightBg
 	 * @description Highlight the WebElement
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param by ||description: By class of Object of Xpath of WebElement to be,
 	 *           color highlighted ||allowedRange:
 	 * @return void ||description:
@@ -549,7 +549,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name getLatestDownloadedFile
 	 * @description It returns the latest downloaded file object in Downloads folder
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param ||description: ||allowedRange:
 	 * @return File ||description: File Object
 	 * @jiraId
@@ -588,7 +588,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name deleteFile
 	 * @description It deletes the file
-	 * @author Komal Verma
+	 * @author Satyajit Bose
 	 * @param file ||description: File Object ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -611,7 +611,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name createFile
 	 * @description It creates the file and returns it's object
-	 * @author Komal Verma
+	 * @author Satyajit Bose
 	 * @param fileName ||description: File Full path with name and extension
 	 *                 ||allowedRange:
 	 * @return File ||description: file object
@@ -637,7 +637,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @name getFileLastModifiedDate
 	 * @description This will provide the last modified date of file based on the
 	 *              format requested.
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param filePath ||description: File Full path with name and extension
 	 *                 ||allowedRange:
 	 * @param Format   ||description: date format in which expecting Modified date
@@ -670,7 +670,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name getAllFilesInDownloadDirectory
 	 * @description This will return all file names from download directory
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param clearDirectory ||description: optional boolean param if true it will
 	 *                       clean entire directory ||allowedRange:
 	 * @return String ||description: array of file names in String format
@@ -682,7 +682,7 @@ public class BasePage extends FrameworkServiceManager {
 			clearFolder = clearDirectory[0];
 		}
 		try {
-			File downLoadDirectory = new File(BrowserManager.getInstance().getDownloadfolder());// Bijan on
+			File downLoadDirectory = new File(BrowserManager.getInstance().getDownloadfolder());// Satya on
 																								// 19th May
 																								// 2021
 			if (clearFolder) {
@@ -693,7 +693,7 @@ public class BasePage extends FrameworkServiceManager {
 			String[] DOWNLOADFILES = downLoadDirectory.list(new FilenameFilter() {
 				public boolean accept(File dir, String fileName) {
 					// if (fileName.startsWith("Unconfirmed") || fileName.endsWith(".tmp")) {
-					// Bijan Requested 06/04
+					// Satya Requested 06/04
 					if (fileName.startsWith("Unconfirmed") || fileName.endsWith(".tmp")
 							|| fileName.endsWith(".crdownload")) {
 						return false;
@@ -715,7 +715,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @name verifyAndGetNewDownloadedFile
 	 * @description This method verify if new file is downloaded or not and also
 	 *              return new downloaded file name
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param ||description: ||allowedRange:
 	 * @return String ||description: new file name
 	 * @jiraId
@@ -723,7 +723,7 @@ public class BasePage extends FrameworkServiceManager {
 	public static File verifyAndGetNewDownloadedFile(String[] DOWNLOADFILES) {
 		try {
 			int timeOut = 0;
-			File downLoadDirectory = new File(BrowserManager.getInstance().getDownloadfolder());// Bijan on
+			File downLoadDirectory = new File(BrowserManager.getInstance().getDownloadfolder());// Satya on
 																								// 19th may
 																								// 2021
 			String[] newDownloadFiles;
@@ -754,7 +754,7 @@ public class BasePage extends FrameworkServiceManager {
 				}
 				if (!status) {
 					File fileObject = new File(
-							BrowserManager.getInstance().getDownloadfolder() + "\\" + eachNewFile.toString());// Bijan
+							BrowserManager.getInstance().getDownloadfolder() + "\\" + eachNewFile.toString());// Satya
 																												// On
 																												// 19th
 																												// May
@@ -779,7 +779,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name validateZipContent()
 	 * @description This method will validate ZIP content of the downloaded file
-	 * @author Nilesh Patil
+	 * @author Satyajit Bose
 	 * @param String||description:zipFilePath - Path of zip file || allowedRange:
 	 * @return int ||description: return 0 - if Zip has any content , return 1 - if
 	 *         Zip is empty , return -1 - if any error.
@@ -832,7 +832,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name CreateDBConnection
 	 * @description This method will create the connection with oracle Database
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param NA ||description: ||allowedRange:
 	 * @return statement object
 	 * @jiraId
@@ -848,7 +848,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name getCurrentDate
 	 * @description This will get current Date and time based on format requested
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param format ||description: this is a format eg. 'yyyy-MM-dd HH:mm:ss'
 	 *               ||allowedRange: refer simpleDate format document to create
 	 *               Valid date format
@@ -875,7 +875,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name validateZipContent()
 	 * @description This method will validate ZIP content of the downloaded file
-	 * @author Nilesh Patil
+	 * @author Satyajit Bose
 	 * @param File||description:file - Downloaded File Object || allowedRange:
 	 * @return int ||description: return 0 - if Zip has any content , return 1 - if
 	 *         Zip is empty , return -1 - if any error.
@@ -924,7 +924,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name CreateSampleFile
 	 * @description Create a Sample File in Desired Location
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param ||description: ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -959,7 +959,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name getSpecificDate
 	 * @description Get Date in Desired Format with Day manipulation
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param ||description: ||allowedRange:
 	 * @return String ||description:
 	 * @jiraId
@@ -991,7 +991,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * 
 	 * @description Generate Random Number based on input length
 	 * 
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * 
 	 * @param ||description:length ||allowedRange:
 	 * 
@@ -1016,7 +1016,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * 
 	 * @description Generate Random String based on input length
 	 * 
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * 
 	 * @param ||description:length ||allowedRange:
 	 * 
@@ -1039,7 +1039,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name readOnlinePDF
 	 * @description This will read the PDF content and return in String format
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param ||description: || allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -1066,7 +1066,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name readPDF
 	 * @description This will read the PDF content and return in String format
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param String ||description: local pdf Path || allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -1093,7 +1093,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name getAllFilesInSpecificDirectory
 	 * @description Fetch all files Present in Specific Folder
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param ||description: ||allowedRange:
 	 * @return String[] ||description:All Files
 	 * @jiraId
@@ -1121,7 +1121,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param strQuery The SQL query to be executed.
 	 * @return A map containing the data fetched from the database.
 	 * @throws Exception If an error occurs during execution.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static Map<Integer, Map<String, String>> FetchDataFromDBGeneric(String strQuery) {
 		Map<Integer, Map<String, String>> returnMapList = new HashMap<Integer, Map<String, String>>();
@@ -1197,7 +1197,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param locator The Playwright Locator for the element to fill.
 	 * @param text    The text to fill into the element.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public void fill(Object element, String text, String... optionalElementName) {
 		String printName = (optionalElementName.length > 0) ? optionalElementName[0] : null;
@@ -1236,7 +1236,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * handles errors.
 	 *
 	 * @param url The URL to open.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static void openURL(String url) {
 		try {
@@ -1256,7 +1256,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param element The Playwright Locator or selector string for the element.
 	 * @return true if the element is present and visible, false otherwise.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean isElementPresent(Object element) {
 		try {
@@ -1319,7 +1319,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param timeoutInSeconds The maximum time to wait in seconds.
 	 * @return true if the element becomes visible within the timeout, false
 	 *         otherwise.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean waitForElementVisible(Page page, String selector, int timeoutInSeconds) {
 		try {
@@ -1338,7 +1338,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param page     The Playwright Page object.
 	 * @param selector The Playwright selector for the element.
 	 * @return true if the element is present and visible, false otherwise.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean isElementPresent(Page page, String selector) {
 		try {
@@ -1363,7 +1363,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param element The Playwright Locator or selector string of the element to
 	 *                double-click.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static void dblClick(Object element) {
 		try {
@@ -1395,7 +1395,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param locator The Playwright Locator to wait for.
 	 * @param timeout The maximum time to wait as a Duration.
 	 * @return true if the locator is found within the timeout, false otherwise.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean waitForLocator(Object element, int timeoutMs) {
 		try {
@@ -1420,7 +1420,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param locator The Playwright Locator to wait for.
 	 * @return true if the locator is found within the default timeout, false
 	 *         otherwise.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean waitForLocator(Object element) {
 		return waitForLocator(element, DEFAULT_TIMEOUT);
@@ -1455,7 +1455,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param locator The Playwright Locator to wait for.
 	 * @param timeout The maximum time to wait as a Duration.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean waitForVisible(Object element, int timeoutMs) {
 		try {
@@ -1478,7 +1478,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * Waits for a locator to become visible on the page using the default timeout.
 	 *
 	 * @param locator The Playwright Locator to wait for.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean waitForVisible(Object element) {
 		return waitForVisible(element, DEFAULT_TIMEOUT);
@@ -1492,7 +1492,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param timeout The maximum time to wait as a Duration.
 	 * @return true if the locator becomes invisible within the timeout, false
 	 *         otherwise.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public static boolean waitForInvisible(Object element, int... timeout) {
 		int tempTimeout = (timeout.length > 0) ? timeout[0] : DEFAULT_TIMEOUT;
@@ -1518,7 +1518,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param locator The Playwright Locator to wait for.
 	 * @param timeout The maximum time to wait as a Duration.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public void waitForHidden(Object element, int timeoutMs) {
 		try {
@@ -1540,7 +1540,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * Waits for a locator to become hidden on the page using the default timeout.
 	 *
 	 * @param locator The Playwright Locator to wait for.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public void waitForHidden(Object element) {
 		try {
@@ -1556,7 +1556,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param page The Playwright Page object.
 	 * @return A byte array containing the screenshot image data.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public byte[] screenshotWholePage(Page page) {
 		return page.screenshot(new Page.ScreenshotOptions().setFullPage(true));
@@ -1568,7 +1568,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param page     The Playwright Page object.
 	 * @param selector The selector of the element to screenshot.
 	 * @return A byte array containing the screenshot image data of the element.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public byte[] screenshotOfElement(Page page, String selector) {
 		Locator loc = page.locator(selector);
@@ -1582,7 +1582,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param action
 	 * @param attempts
 	 * @param pollInterval
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public void retry(Runnable action, int attempts, Duration pollInterval) {
 		PlaywrightException last = null;
@@ -1606,7 +1606,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * Retry an action using default settings.
 	 * 
 	 * @param action
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public void retry(Runnable action) {
 		retry(action, defaultRetryAttempts, defaultPollInterval);
@@ -1620,7 +1620,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param condition
 	 * @param attempts
 	 * @param pollInterval
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public void retryUntil(Runnable action, Supplier<Boolean> condition, int attempts, Duration pollInterval) {
 		for (int i = 0; i < attempts; i++) {
@@ -1642,7 +1642,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name hoverOverToElement
 	 * @description Mouse hover to element
-	 * @author Bijan Mallick
+	 * @author Satya Bose
 	 * @param by ||description: Element's Locator ||allowedRange:
 	 * @return void ||description:
 	 */
@@ -1658,7 +1658,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name waitForPageLoad
 	 * @description Wait for page load to complete
-	 * @author BMallick
+	 * @author BBose
 	 * @param ||description: ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -1672,7 +1672,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name waitForPageLoad
 	 * @description Wait for page load to complete
-	 * @author BMallick
+	 * @author BBose
 	 * @param timeoutMillis ||description: timeout in milliseconds ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -1702,7 +1702,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name generateNumber
 	 * @description Generate Random Number between min and max
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param min ||description: minimum number ||allowedRange:
 	 * @param max ||description: maximum number ||allowedRange:
 	 * @return int ||description: Random Number
@@ -1722,7 +1722,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @name waitForEnable
 	 * @description Wait until the element is enabled
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit Bose
 	 * @param locator ||description: Element's Locator ||allowedRange:
 	 * @return void ||description:
 	 * @jiraId
@@ -1818,7 +1818,7 @@ public class BasePage extends FrameworkServiceManager {
 				return loginStatus = true;
 			}
 
-			// BrowserManager.getInstance().getPage().locator("[data-test-id='bmallick@eagle.org']").isVisible();
+			// BrowserManager.getInstance().getPage().locator("[data-test-id='bBose@eagle.org']").isVisible();
 			// Special handling for Windchill login page
 			/*
 			 * waitForPageLoad(); refreshPage(); String strURL =
@@ -1943,7 +1943,7 @@ public class BasePage extends FrameworkServiceManager {
 	 *
 	 * @param jiraKey The Jira issue key (e.g., "PROJECT-123").
 	 * @return A formatted HTML link to the Jira issue.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	protected String getJiraIssueLink(String jiraKey) {
 		return String.format(
@@ -1958,7 +1958,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param locatorOrText The locator (Locator) or exact text (String) of the
 	 *                      element to click.
 	 * @return The newly opened Page object.
-	 * @author BMallick
+	 * @author BBose
 	 */
 	public Page clickAndWaitForNewPage(Object locatorOrText) {
 		try {
@@ -1988,7 +1988,7 @@ public class BasePage extends FrameworkServiceManager {
 	 * @param page          The Playwright Page object to monitor.
 	 * @param timeoutMillis The maximum time to wait in milliseconds.
 	 * @return true if the page is closed within the timeout, false otherwise.
-	 * @author BMallick
+	 * @author Bose
 	 */
 	public boolean waitForPageInexistence(Page page, long timeoutMillis) {
 		try {

@@ -21,7 +21,7 @@ public final class ExtentReportMGR {
      * This method provides a global point of access to the ExtentReportMGR instance.
      *
      * @return ExtentReportMGR singleton instance
-     * @author BMallick
+     * @author Satyajit
      */
     public static ExtentReportMGR getInstance() {
         return INSTANCE;
@@ -33,7 +33,7 @@ public final class ExtentReportMGR {
 	 * which ensures that each thread has its own isolated instance.
 	 *
 	 * @return ExtentTest instance associated with the current thread
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public ExtentTest getExtentTest() {
 		return extentTest.get();
@@ -45,7 +45,7 @@ public final class ExtentReportMGR {
 	 * which ensures that each thread has its own isolated instance.
 	 *
 	 * @param extent ExtentTest instance to be associated with the current thread
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public void setExtentTest(ExtentTest extent) {
 		extentTest.set(extent);
@@ -63,7 +63,7 @@ public final class ExtentReportMGR {
 	 * @param extent   ExtentTest instance in which the new node is to be created
 	 * @param nodeName Name of the new node
 	 * @return ExtentTest instance associated with the current thread
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 
 	public ExtentTest setExtentTestNode(ExtentTest extent, String nodeName) {
@@ -80,7 +80,7 @@ public final class ExtentReportMGR {
 	 * it removes the instance from the ThreadLocal variable. This ensures that the
 	 * ExtentTest instance is properly cleaned up and prevents memory leaks.
 	 *
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public void removeExtentTest() {
 		if (extentTest.get() != null) {
@@ -98,7 +98,7 @@ public final class ExtentReportMGR {
 	 * ExtentReports instance.
 	 *
 	 * @return ExtentReports instance
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public ExtentReports getExtentReports() {
 		return extentReports;
@@ -111,7 +111,7 @@ public final class ExtentReportMGR {
 	 * instance.
 	 *
 	 * @param extentReports ExtentReports instance to be set
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public void setExtentReports(ExtentReports extentReports) {
 		this.extentReports = extentReports;

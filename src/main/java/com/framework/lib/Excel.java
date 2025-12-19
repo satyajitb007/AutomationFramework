@@ -162,7 +162,7 @@ public class Excel {
 	 * @name excelRead
 	 * @description Reads data from an excel(.xlsx) sheet and returns the result as
 	 *              List<Object[]>
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit
 	 * @param sExcelPath ||description: String Name/Path of the excel file to read
 	 *                   ||allowedRange:
 	 * @param sSheetName ||description: String Name of the sheet in the excel file
@@ -238,7 +238,7 @@ public class Excel {
 	 * @name excelReadHashMap
 	 * @description Reads data from an excel(.xlsx) sheet and returns the result as
 	 *              List<LinkedHashMap<"ColumnHeader", "RowValue">>
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit
 	 * @param sExcelPath ||description: String Name/Path of the excel file to read
 	 *                   ||allowedRange:
 	 * @param sSheetName ||description: String Name of the sheet in the excel file
@@ -315,7 +315,7 @@ public class Excel {
 	 * @name excelRead
 	 * @description Reads data from an excel(.xlsx) sheet and returns the result as
 	 *              List<Obejct[]> based on the condition column & its value
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit
 	 * @param sExcelPath ||description: String Name/Path of the excel file to
 	 *                   connect ||allowedRange:
 	 * @param sSheetName ||description: String Name of the sheet in the excel file
@@ -411,7 +411,7 @@ public class Excel {
 	 * @description Reads data from an excel(.xlsx) sheet and returns the result as
 	 *              List<LinkedHashMap<String,String>> based on the condition column
 	 *              & its value
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit
 	 * @param sExcelPath ||description: String Name/Path of the excel file to
 	 *                   connect ||allowedRange:
 	 * @param sSheetName ||description: String Name of the sheet in the excel file
@@ -616,7 +616,7 @@ public class Excel {
 	 *              reference, primary column should be configured in the
 	 *              Config.properties file using the property
 	 *              "env.data.primarycolumn".
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit
 	 * @param sExcelPath ||description: String Name/Path of the excel file to
 	 *                   connect ||allowedRange:
 	 * @param sSheetName ||description: Array of String, Excel Sheet Names
@@ -851,7 +851,7 @@ public class Excel {
 	 *              condition column & primary column reference, primary column
 	 *              should be configured in the Config.properties file using the
 	 *              property "env.data.primarycolumn".
-	 * @author Vaibhav Narkhede
+	 * @author Satyajit
 	 * @param sExcelPath ||description: String Name/Path of the excel file to
 	 *                   connect ||allowedRange:
 	 * @param sSheetName ||description: Array of String, Excel Sheet Names
@@ -1473,7 +1473,7 @@ public class Excel {
 	 *
 	 * @name fetchExcelDataUsingQuery
 	 * @description fetch Excel Data Using Query, Fillo Object
-	 * @author Bijan Mallick
+	 * @author Satyajit
 	 * @param
 	 * @return Map<Integer, Map<String, String>> ||description:
 	 * @jiraId
@@ -1616,7 +1616,7 @@ public class Excel {
 	 *
 	 * @name formatExcelFile
 	 * @description trim all the cell data Excel and convert it to string format
-	 * @author Bijan Mallick
+	 * @author Satyajit
 	 * @param ||description:excelPath,sheetName
 	 * @return
 	 * @return
@@ -1685,7 +1685,7 @@ public class Excel {
 	 *
 	 * @name fetchExcelData
 	 * @description Fetch Data from Excel Sheet based on Conditions
-	 * @author Bijan Mallick
+	 * @author Satyajit
 	 * @param ||description:excelPath,sheetName,targetData,Condition header with "|"
 	 *                                                               separated,Condition
 	 *                                                               data with "|"

@@ -16,7 +16,7 @@ public class DatabaseConnection {
      * If an exception occurs during the connection process, the connection is closed and the exception is logged and rethrown.
      *
      * @throws Exception if any error occurs during the creation of the DatabaseConnection instance or the connection
-     * @author BMallick
+     * @author Satyajit
      */
     private DatabaseConnection() throws Exception {
         try {
@@ -45,7 +45,7 @@ public class DatabaseConnection {
      * 
      * @return instance of the DatabaseConnection class
      * @throws Exception if any error occurs during the creation of the DatabaseConnection instance
-     * @author BMallick
+     * @author Satyajit
      */
 	public static DatabaseConnection getInstance() throws Exception {
 		synchronized (Connection.class) {
@@ -61,7 +61,7 @@ public class DatabaseConnection {
 	 *
 	 * @return Connection to the database
 	 * @throws Exception if any error occurs during the creation of the DatabaseConnection instance or the connection
-	 * @author BMallick
+	 * @author Satyajit
 	 */
     public Connection getConnection() throws Exception {
     	if(con == null) {

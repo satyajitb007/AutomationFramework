@@ -45,7 +45,7 @@ public final class Util {
 	 * the Util instance.
 	 *
 	 * @return Util singleton instance
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public static Util getInstance() {
 		return instance;
@@ -58,7 +58,7 @@ public final class Util {
 	 * Properties object.
 	 *
 	 * @return Properties object
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public Properties GetPropertyObject() {
 		return prop;
@@ -115,7 +115,7 @@ public final class Util {
 	 * @return The original string after decryption
 	 * @throws IllegalArgumentException if the input text is not a valid Base64
 	 *                                  encoded string
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public static String decryptString(String text) throws IllegalArgumentException {
 		byte[] decodedBytes = Base64.getDecoder().decode(text.getBytes());
@@ -130,7 +130,7 @@ public final class Util {
 	 * @param text ||description: String to be encrypted ||allowedRange:
 	 * @return NA
 	 * @jiraId
-	 * @author BMallick
+	 * @author Satyajit
 	 * 
 	 */
 	public static String encryptString(String text) throws IllegalArgumentException {
@@ -171,7 +171,7 @@ public final class Util {
 	 * @param prop The Properties object containing the configuration details
 	 * @return The initialized ExtentReports object
 	 * @throws Exception if any error occurs during the initialization process
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public ExtentReports initExtentReport(Properties prop) {
 		// extent report
@@ -253,7 +253,7 @@ public final class Util {
 	 * used to customize the status hierarchy according to the requirements of the
 	 * report.
 	 *
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public void setExtentReportStatusHierarchy() {
 		extent.config().statusConfigurator().setStatusHierarchy(STATUS_HIERARCHY);

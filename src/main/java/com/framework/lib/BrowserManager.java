@@ -28,7 +28,7 @@ public final class BrowserManager extends BasePage {
      * The instance is created at the time of class loading.
      *
      * @return instance of the DriverMGR class
-     * @author BMallick
+     * @author Satyajit
      */
     public static BrowserManager getInstance() {
         return INSTANCE;
@@ -147,7 +147,7 @@ public final class BrowserManager extends BasePage {
 	 *
 	 * @return String representing the download folder associated with the current
 	 *         thread
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public String getDownloadfolder() {
 		return downloadFolder.get();
@@ -171,7 +171,7 @@ public final class BrowserManager extends BasePage {
 	 * which ensures that each thread has its own isolated instance. After calling
 	 * this method, the WebDriver instance for the current thread will be null.
 	 * 
-	 * @author BMallick
+	 * @author Satyajit
 	 */
 	public void unload() {
 		// driver.remove();
@@ -200,7 +200,7 @@ public final class BrowserManager extends BasePage {
 	/**
 	 * Creates and returns a new BrowserContext with no viewport size set.
 	 * 
-	 * @author BMallick
+	 * @author Satyajit
 	 * @return
 	 */
 	public static BrowserContext getNewContext() {
@@ -212,7 +212,7 @@ public final class BrowserManager extends BasePage {
 	 * Sets a new BrowserContext and creates a new Page within that context.
 	 * Also handles active tracing by stopping trace on old context and restarting on new context.
 	 * 
-	 * @author BMallick
+	 * @author Satyajit
 	 * @param context
 	 */
 	public static void setContext(BrowserContext context) {
